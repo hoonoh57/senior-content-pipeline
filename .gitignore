@@ -1,0 +1,20 @@
+﻿# 전략 자산 — GitHub에 공개하지 않음 (로컬 private only)
+/projects/*
+/_skills/*
+
+# 단, 폴더 구조와 예시는 공유 허용
+!/projects/.gitkeep
+!/projects/_EXAMPLE/
+!/_skills/.gitkeep
+
+# 무거운 바이너리
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.zip
+
+# 비밀·환경
+.env
+*token*
+*secret*
