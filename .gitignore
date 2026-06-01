@@ -18,3 +18,8 @@
 .env
 *token*
 *secret*
+
+# 가상환경·캐시 (로컬 생성)
+.venv/
+__pycache__/
+*.pyc
